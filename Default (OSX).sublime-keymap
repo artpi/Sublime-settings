@@ -9,5 +9,7 @@
 	{ "keys": ["ctrl+v"], "command": "paste" },
 	{ "keys": ["ctrl+z"], "command": "undo" },
 	{ "keys": ["ctrl+a"], "command": "select_all" },
-	{ "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "find"} }
+	{ "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "find"} },
+	{ "keys": ["ctrl+forward_slash"], "command": "toggle_comment", "args": { "block": false } }
+
 ]
