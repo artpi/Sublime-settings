@@ -1,0 +1,13 @@
+{
+    "user": {
+        "debug": false,
+        "linters": {
+            "eslint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            }
+        },
+        "show_errors_on_save": true
+    }
+}

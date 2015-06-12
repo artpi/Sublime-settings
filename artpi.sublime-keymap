@@ -1,0 +1,13 @@
+[
+	{ "keys": ["ctrl+shift+n"], "command": "new_window" },
+	{ "keys": ["ctrl+shift+w"], "command": "close_window" },
+	{ "keys": ["ctrl+n"], "command": "new_file" },
+	{ "keys": ["ctrl+s"], "command": "save" },
+	{ "keys": ["ctrl+w"], "command": "close" },
+	{ "keys": ["ctrl+x"], "command": "cut" },
+	{ "keys": ["ctrl+c"], "command": "copy" },
+	{ "keys": ["ctrl+v"], "command": "paste" },
+	{ "keys": ["ctrl+z"], "command": "undo" },
+	{ "keys": ["ctrl+a"], "command": "select_all" },
+	{ "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "find"} }
+]
