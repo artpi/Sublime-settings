@@ -1,0 +1,9 @@
+[
+    {
+        "caption": "Run in Node",
+        "command": "filter_pipes_process",
+        "args": {
+            "command": ["node"]
+        }
+    }
+]
