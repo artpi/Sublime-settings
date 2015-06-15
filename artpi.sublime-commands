@@ -1,3 +1,10 @@
 [
-	{ "caption": "Browser", "command": "openInBrowser" }
+	{ "caption": "Browser", "command": "openInBrowser" },
+    {
+        "caption": "Artpi: Open Sublime-settings",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/Sublime-settings"
+        }
+    }
 ]
