@@ -8,6 +8,13 @@
         },
     },
     {
+        "caption": "BASH Cheat Sheet",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/Sublime-settings/docs/BASH.md",
+        },
+    },
+    {
         "caption": "Artpi: Open Sublime-settings",
         "command": "open_file", "args":
         {
