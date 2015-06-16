@@ -5,6 +5,13 @@
         "command": "open_file",
         "args": {
             "file": "${packages}/Sublime-settings/docs/GIT.md",
+        },
+    },
+    {
+        "caption": "Artpi: Open Sublime-settings",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/Sublime-settings"
         }
     }
 ]
