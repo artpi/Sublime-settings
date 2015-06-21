@@ -3,6 +3,7 @@
 * `ln -s KATALOG_DOCELOWY ./NAZWA_LINKA`
 * `find . -iname '*something*'` - szukaj pliku
 * `locate something` - szukaj pliku gdziekolwiek
+* `scp -P 59184 -r ./bower_components/ artpi@s100.vdl.pl:domains/labs.artpi.net/public_html/omantel-app/bower_components` - copy
 
 
 
