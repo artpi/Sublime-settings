@@ -1,0 +1,26 @@
+<snippet>
+	<content>
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { ${1:Actions} } from 'state/ui/editor/post/actions';
+
+propTypes: {
+	${1:Actions}: React.PropTypes.func,
+},
+
+getDefaultProps: function() {
+	return {
+		${1:Actions}: () => {},
+	};
+},
+
+export default connect(
+	null,
+	dispatch => bindActionCreators( { ${1:Actions} }, dispatch )
+)( ${2:Component} );
+</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rConnect</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.javascript</scope> -->
+</snippet>
