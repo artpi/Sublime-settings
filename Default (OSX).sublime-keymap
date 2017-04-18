@@ -12,6 +12,6 @@
 	{ "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "find"} },
 	{ "keys": ["ctrl+h"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
 	{ "keys": ["ctrl+r"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
-	{ "keys": ["ctrl+forward_slash"], "command": "toggle_comment", "args": { "block": false } }
-
+	{ "keys": ["ctrl+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["shift","shift"], "command": "show_overlay", "args": {"overlay": "command_palette"} }
 ]

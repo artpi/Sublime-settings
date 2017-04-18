@@ -1,11 +1,14 @@
 [
-	{ "caption": "Browser", "command": "openInBrowser" },
 	{
         "caption": "GIT Cheat Sheet",
         "command": "open_file",
         "args": {
             "file": "${packages}/Sublime-settings/docs/GIT.md",
         },
+    },
+    {
+        "caption": "Opengrok",
+        "command": "open_grok"
     },
     {
         "caption": "BASH Cheat Sheet",
